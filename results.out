@@ -1,0 +1,1514 @@
+running
+running
+query is ./sampledata/query/B8E1A7.fasta and target is ./sampledata/target/100k.fa and val is 1
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/B8E1A7.fasta > 1.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/B8E1A7.fasta > 1.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/B8E1A7.fasta ./sampledata/target/100k.fa > 1.3.out
+query is ./sampledata/query/B8E1A7.fasta and target is ./sampledata/target/10k.fa and val is 2
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/B8E1A7.fasta > 2.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/B8E1A7.fasta > 2.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/B8E1A7.fasta ./sampledata/target/10k.fa > 2.3.out
+query is ./sampledata/query/B8E1A7.fasta and target is ./sampledata/target/10M.fa and val is 3
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/B8E1A7.fasta > 3.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/B8E1A7.fasta > 3.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/B8E1A7.fasta ./sampledata/target/10M.fa > 3.3.out
+query is ./sampledata/query/B8E1A7.fasta and target is ./sampledata/target/1k.fa and val is 4
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/B8E1A7.fasta > 4.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/B8E1A7.fasta > 4.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/B8E1A7.fasta ./sampledata/target/1k.fa > 4.3.out
+query is ./sampledata/query/B8E1A7.fasta and target is ./sampledata/target/1M.fa and val is 5
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/B8E1A7.fasta > 5.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/B8E1A7.fasta > 5.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/B8E1A7.fasta ./sampledata/target/1M.fa > 5.3.out
+query is ./sampledata/query/B8E1A7.fasta and target is ./sampledata/target/ref.fa and val is 6
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/B8E1A7.fasta > 6.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/B8E1A7.fasta > 6.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/B8E1A7.fasta ./sampledata/target/ref.fa > 6.3.out
+query is ./sampledata/query/O29181.fasta and target is ./sampledata/target/100k.fa and val is 7
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/O29181.fasta > 7.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/O29181.fasta > 7.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O29181.fasta ./sampledata/target/100k.fa > 7.3.out
+query is ./sampledata/query/O29181.fasta and target is ./sampledata/target/10k.fa and val is 8
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/O29181.fasta > 8.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/O29181.fasta > 8.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O29181.fasta ./sampledata/target/10k.fa > 8.3.out
+query is ./sampledata/query/O29181.fasta and target is ./sampledata/target/10M.fa and val is 9
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/O29181.fasta > 9.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/O29181.fasta > 9.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O29181.fasta ./sampledata/target/10M.fa > 9.3.out
+query is ./sampledata/query/O29181.fasta and target is ./sampledata/target/1k.fa and val is 10
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/O29181.fasta > 10.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/O29181.fasta > 10.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O29181.fasta ./sampledata/target/1k.fa > 10.3.out
+query is ./sampledata/query/O29181.fasta and target is ./sampledata/target/1M.fa and val is 11
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/O29181.fasta > 11.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/O29181.fasta > 11.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O29181.fasta ./sampledata/target/1M.fa > 11.3.out
+query is ./sampledata/query/O29181.fasta and target is ./sampledata/target/ref.fa and val is 12
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/O29181.fasta > 12.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/O29181.fasta > 12.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O29181.fasta ./sampledata/target/ref.fa > 12.3.out
+query is ./sampledata/query/O60341.fasta and target is ./sampledata/target/100k.fa and val is 13
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/O60341.fasta > 13.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/O60341.fasta > 13.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O60341.fasta ./sampledata/target/100k.fa > 13.3.out
+query is ./sampledata/query/O60341.fasta and target is ./sampledata/target/10k.fa and val is 14
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/O60341.fasta > 14.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/O60341.fasta > 14.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O60341.fasta ./sampledata/target/10k.fa > 14.3.out
+query is ./sampledata/query/O60341.fasta and target is ./sampledata/target/10M.fa and val is 15
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/O60341.fasta > 15.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/O60341.fasta > 15.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O60341.fasta ./sampledata/target/10M.fa > 15.3.out
+query is ./sampledata/query/O60341.fasta and target is ./sampledata/target/1k.fa and val is 16
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/O60341.fasta > 16.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/O60341.fasta > 16.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O60341.fasta ./sampledata/target/1k.fa > 16.3.out
+query is ./sampledata/query/O60341.fasta and target is ./sampledata/target/1M.fa and val is 17
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/O60341.fasta > 17.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/O60341.fasta > 17.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O60341.fasta ./sampledata/target/1M.fa > 17.3.out
+query is ./sampledata/query/O60341.fasta and target is ./sampledata/target/ref.fa and val is 18
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/O60341.fasta > 18.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/O60341.fasta > 18.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O60341.fasta ./sampledata/target/ref.fa > 18.3.out
+query is ./sampledata/query/O74807.fasta and target is ./sampledata/target/100k.fa and val is 19
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/O74807.fasta > 19.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/O74807.fasta > 19.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O74807.fasta ./sampledata/target/100k.fa > 19.3.out
+query is ./sampledata/query/O74807.fasta and target is ./sampledata/target/10k.fa and val is 20
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/O74807.fasta > 20.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/O74807.fasta > 20.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O74807.fasta ./sampledata/target/10k.fa > 20.3.out
+query is ./sampledata/query/O74807.fasta and target is ./sampledata/target/10M.fa and val is 21
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/O74807.fasta > 21.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/O74807.fasta > 21.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O74807.fasta ./sampledata/target/10M.fa > 21.3.out
+query is ./sampledata/query/O74807.fasta and target is ./sampledata/target/1k.fa and val is 22
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/O74807.fasta > 22.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/O74807.fasta > 22.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O74807.fasta ./sampledata/target/1k.fa > 22.3.out
+query is ./sampledata/query/O74807.fasta and target is ./sampledata/target/1M.fa and val is 23
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/O74807.fasta > 23.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/O74807.fasta > 23.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O74807.fasta ./sampledata/target/1M.fa > 23.3.out
+query is ./sampledata/query/O74807.fasta and target is ./sampledata/target/ref.fa and val is 24
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/O74807.fasta > 24.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/O74807.fasta > 24.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/O74807.fasta ./sampledata/target/ref.fa > 24.3.out
+query is ./sampledata/query/P00762.fasta and target is ./sampledata/target/100k.fa and val is 25
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P00762.fasta > 25.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P00762.fasta > 25.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P00762.fasta ./sampledata/target/100k.fa > 25.3.out
+query is ./sampledata/query/P00762.fasta and target is ./sampledata/target/10k.fa and val is 26
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P00762.fasta > 26.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P00762.fasta > 26.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P00762.fasta ./sampledata/target/10k.fa > 26.3.out
+query is ./sampledata/query/P00762.fasta and target is ./sampledata/target/10M.fa and val is 27
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P00762.fasta > 27.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P00762.fasta > 27.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P00762.fasta ./sampledata/target/10M.fa > 27.3.out
+query is ./sampledata/query/P00762.fasta and target is ./sampledata/target/1k.fa and val is 28
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P00762.fasta > 28.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P00762.fasta > 28.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P00762.fasta ./sampledata/target/1k.fa > 28.3.out
+query is ./sampledata/query/P00762.fasta and target is ./sampledata/target/1M.fa and val is 29
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P00762.fasta > 29.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P00762.fasta > 29.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P00762.fasta ./sampledata/target/1M.fa > 29.3.out
+query is ./sampledata/query/P00762.fasta and target is ./sampledata/target/ref.fa and val is 30
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P00762.fasta > 30.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P00762.fasta > 30.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P00762.fasta ./sampledata/target/ref.fa > 30.3.out
+query is ./sampledata/query/P01008.fasta and target is ./sampledata/target/100k.fa and val is 31
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P01008.fasta > 31.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P01008.fasta > 31.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01008.fasta ./sampledata/target/100k.fa > 31.3.out
+query is ./sampledata/query/P01008.fasta and target is ./sampledata/target/10k.fa and val is 32
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P01008.fasta > 32.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P01008.fasta > 32.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01008.fasta ./sampledata/target/10k.fa > 32.3.out
+query is ./sampledata/query/P01008.fasta and target is ./sampledata/target/10M.fa and val is 33
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P01008.fasta > 33.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P01008.fasta > 33.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01008.fasta ./sampledata/target/10M.fa > 33.3.out
+query is ./sampledata/query/P01008.fasta and target is ./sampledata/target/1k.fa and val is 34
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P01008.fasta > 34.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P01008.fasta > 34.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01008.fasta ./sampledata/target/1k.fa > 34.3.out
+query is ./sampledata/query/P01008.fasta and target is ./sampledata/target/1M.fa and val is 35
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P01008.fasta > 35.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P01008.fasta > 35.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01008.fasta ./sampledata/target/1M.fa > 35.3.out
+query is ./sampledata/query/P01008.fasta and target is ./sampledata/target/ref.fa and val is 36
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P01008.fasta > 36.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P01008.fasta > 36.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01008.fasta ./sampledata/target/ref.fa > 36.3.out
+query is ./sampledata/query/P01111.fasta and target is ./sampledata/target/100k.fa and val is 37
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P01111.fasta > 37.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P01111.fasta > 37.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01111.fasta ./sampledata/target/100k.fa > 37.3.out
+query is ./sampledata/query/P01111.fasta and target is ./sampledata/target/10k.fa and val is 38
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P01111.fasta > 38.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P01111.fasta > 38.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01111.fasta ./sampledata/target/10k.fa > 38.3.out
+query is ./sampledata/query/P01111.fasta and target is ./sampledata/target/10M.fa and val is 39
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P01111.fasta > 39.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P01111.fasta > 39.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01111.fasta ./sampledata/target/10M.fa > 39.3.out
+query is ./sampledata/query/P01111.fasta and target is ./sampledata/target/1k.fa and val is 40
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P01111.fasta > 40.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P01111.fasta > 40.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01111.fasta ./sampledata/target/1k.fa > 40.3.out
+query is ./sampledata/query/P01111.fasta and target is ./sampledata/target/1M.fa and val is 41
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P01111.fasta > 41.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P01111.fasta > 41.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01111.fasta ./sampledata/target/1M.fa > 41.3.out
+query is ./sampledata/query/P01111.fasta and target is ./sampledata/target/ref.fa and val is 42
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P01111.fasta > 42.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P01111.fasta > 42.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P01111.fasta ./sampledata/target/ref.fa > 42.3.out
+query is ./sampledata/query/P02232.fasta and target is ./sampledata/target/100k.fa and val is 43
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P02232.fasta > 43.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P02232.fasta > 43.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P02232.fasta ./sampledata/target/100k.fa > 43.3.out
+query is ./sampledata/query/P02232.fasta and target is ./sampledata/target/10k.fa and val is 44
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P02232.fasta > 44.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P02232.fasta > 44.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P02232.fasta ./sampledata/target/10k.fa > 44.3.out
+query is ./sampledata/query/P02232.fasta and target is ./sampledata/target/10M.fa and val is 45
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P02232.fasta > 45.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P02232.fasta > 45.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P02232.fasta ./sampledata/target/10M.fa > 45.3.out
+query is ./sampledata/query/P02232.fasta and target is ./sampledata/target/1k.fa and val is 46
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P02232.fasta > 46.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P02232.fasta > 46.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P02232.fasta ./sampledata/target/1k.fa > 46.3.out
+query is ./sampledata/query/P02232.fasta and target is ./sampledata/target/1M.fa and val is 47
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P02232.fasta > 47.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P02232.fasta > 47.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P02232.fasta ./sampledata/target/1M.fa > 47.3.out
+query is ./sampledata/query/P02232.fasta and target is ./sampledata/target/ref.fa and val is 48
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P02232.fasta > 48.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P02232.fasta > 48.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P02232.fasta ./sampledata/target/ref.fa > 48.3.out
+query is ./sampledata/query/P03435.fasta and target is ./sampledata/target/100k.fa and val is 49
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P03435.fasta > 49.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P03435.fasta > 49.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03435.fasta ./sampledata/target/100k.fa > 49.3.out
+query is ./sampledata/query/P03435.fasta and target is ./sampledata/target/10k.fa and val is 50
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P03435.fasta > 50.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P03435.fasta > 50.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03435.fasta ./sampledata/target/10k.fa > 50.3.out
+query is ./sampledata/query/P03435.fasta and target is ./sampledata/target/10M.fa and val is 51
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P03435.fasta > 51.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P03435.fasta > 51.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03435.fasta ./sampledata/target/10M.fa > 51.3.out
+query is ./sampledata/query/P03435.fasta and target is ./sampledata/target/1k.fa and val is 52
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P03435.fasta > 52.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P03435.fasta > 52.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03435.fasta ./sampledata/target/1k.fa > 52.3.out
+query is ./sampledata/query/P03435.fasta and target is ./sampledata/target/1M.fa and val is 53
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P03435.fasta > 53.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P03435.fasta > 53.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03435.fasta ./sampledata/target/1M.fa > 53.3.out
+query is ./sampledata/query/P03435.fasta and target is ./sampledata/target/ref.fa and val is 54
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P03435.fasta > 54.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P03435.fasta > 54.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03435.fasta ./sampledata/target/ref.fa > 54.3.out
+query is ./sampledata/query/P03630.fasta and target is ./sampledata/target/100k.fa and val is 55
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P03630.fasta > 55.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P03630.fasta > 55.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03630.fasta ./sampledata/target/100k.fa > 55.3.out
+query is ./sampledata/query/P03630.fasta and target is ./sampledata/target/10k.fa and val is 56
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P03630.fasta > 56.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P03630.fasta > 56.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03630.fasta ./sampledata/target/10k.fa > 56.3.out
+query is ./sampledata/query/P03630.fasta and target is ./sampledata/target/10M.fa and val is 57
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P03630.fasta > 57.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P03630.fasta > 57.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03630.fasta ./sampledata/target/10M.fa > 57.3.out
+query is ./sampledata/query/P03630.fasta and target is ./sampledata/target/1k.fa and val is 58
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P03630.fasta > 58.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P03630.fasta > 58.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03630.fasta ./sampledata/target/1k.fa > 58.3.out
+query is ./sampledata/query/P03630.fasta and target is ./sampledata/target/1M.fa and val is 59
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P03630.fasta > 59.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P03630.fasta > 59.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03630.fasta ./sampledata/target/1M.fa > 59.3.out
+query is ./sampledata/query/P03630.fasta and target is ./sampledata/target/ref.fa and val is 60
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P03630.fasta > 60.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P03630.fasta > 60.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03630.fasta ./sampledata/target/ref.fa > 60.3.out
+query is ./sampledata/query/P03989.fasta and target is ./sampledata/target/100k.fa and val is 61
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P03989.fasta > 61.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P03989.fasta > 61.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03989.fasta ./sampledata/target/100k.fa > 61.3.out
+query is ./sampledata/query/P03989.fasta and target is ./sampledata/target/10k.fa and val is 62
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P03989.fasta > 62.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P03989.fasta > 62.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03989.fasta ./sampledata/target/10k.fa > 62.3.out
+query is ./sampledata/query/P03989.fasta and target is ./sampledata/target/10M.fa and val is 63
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P03989.fasta > 63.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P03989.fasta > 63.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03989.fasta ./sampledata/target/10M.fa > 63.3.out
+query is ./sampledata/query/P03989.fasta and target is ./sampledata/target/1k.fa and val is 64
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P03989.fasta > 64.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P03989.fasta > 64.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03989.fasta ./sampledata/target/1k.fa > 64.3.out
+query is ./sampledata/query/P03989.fasta and target is ./sampledata/target/1M.fa and val is 65
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P03989.fasta > 65.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P03989.fasta > 65.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03989.fasta ./sampledata/target/1M.fa > 65.3.out
+query is ./sampledata/query/P03989.fasta and target is ./sampledata/target/ref.fa and val is 66
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P03989.fasta > 66.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P03989.fasta > 66.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P03989.fasta ./sampledata/target/ref.fa > 66.3.out
+query is ./sampledata/query/P04775.fasta and target is ./sampledata/target/100k.fa and val is 67
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P04775.fasta > 67.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P04775.fasta > 67.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P04775.fasta ./sampledata/target/100k.fa > 67.3.out
+query is ./sampledata/query/P04775.fasta and target is ./sampledata/target/10k.fa and val is 68
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P04775.fasta > 68.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P04775.fasta > 68.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P04775.fasta ./sampledata/target/10k.fa > 68.3.out
+query is ./sampledata/query/P04775.fasta and target is ./sampledata/target/10M.fa and val is 69
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P04775.fasta > 69.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P04775.fasta > 69.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P04775.fasta ./sampledata/target/10M.fa > 69.3.out
+query is ./sampledata/query/P04775.fasta and target is ./sampledata/target/1k.fa and val is 70
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P04775.fasta > 70.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P04775.fasta > 70.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P04775.fasta ./sampledata/target/1k.fa > 70.3.out
+query is ./sampledata/query/P04775.fasta and target is ./sampledata/target/1M.fa and val is 71
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P04775.fasta > 71.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P04775.fasta > 71.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P04775.fasta ./sampledata/target/1M.fa > 71.3.out
+query is ./sampledata/query/P04775.fasta and target is ./sampledata/target/ref.fa and val is 72
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P04775.fasta > 72.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P04775.fasta > 72.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P04775.fasta ./sampledata/target/ref.fa > 72.3.out
+query is ./sampledata/query/P05013.fasta and target is ./sampledata/target/100k.fa and val is 73
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P05013.fasta > 73.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P05013.fasta > 73.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P05013.fasta ./sampledata/target/100k.fa > 73.3.out
+query is ./sampledata/query/P05013.fasta and target is ./sampledata/target/10k.fa and val is 74
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P05013.fasta > 74.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P05013.fasta > 74.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P05013.fasta ./sampledata/target/10k.fa > 74.3.out
+query is ./sampledata/query/P05013.fasta and target is ./sampledata/target/10M.fa and val is 75
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P05013.fasta > 75.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P05013.fasta > 75.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P05013.fasta ./sampledata/target/10M.fa > 75.3.out
+query is ./sampledata/query/P05013.fasta and target is ./sampledata/target/1k.fa and val is 76
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P05013.fasta > 76.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P05013.fasta > 76.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P05013.fasta ./sampledata/target/1k.fa > 76.3.out
+query is ./sampledata/query/P05013.fasta and target is ./sampledata/target/1M.fa and val is 77
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P05013.fasta > 77.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P05013.fasta > 77.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P05013.fasta ./sampledata/target/1M.fa > 77.3.out
+query is ./sampledata/query/P05013.fasta and target is ./sampledata/target/ref.fa and val is 78
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P05013.fasta > 78.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P05013.fasta > 78.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P05013.fasta ./sampledata/target/ref.fa > 78.3.out
+query is ./sampledata/query/P07327.fasta and target is ./sampledata/target/100k.fa and val is 79
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P07327.fasta > 79.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P07327.fasta > 79.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07327.fasta ./sampledata/target/100k.fa > 79.3.out
+query is ./sampledata/query/P07327.fasta and target is ./sampledata/target/10k.fa and val is 80
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P07327.fasta > 80.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P07327.fasta > 80.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07327.fasta ./sampledata/target/10k.fa > 80.3.out
+query is ./sampledata/query/P07327.fasta and target is ./sampledata/target/10M.fa and val is 81
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P07327.fasta > 81.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P07327.fasta > 81.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07327.fasta ./sampledata/target/10M.fa > 81.3.out
+query is ./sampledata/query/P07327.fasta and target is ./sampledata/target/1k.fa and val is 82
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P07327.fasta > 82.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P07327.fasta > 82.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07327.fasta ./sampledata/target/1k.fa > 82.3.out
+query is ./sampledata/query/P07327.fasta and target is ./sampledata/target/1M.fa and val is 83
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P07327.fasta > 83.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P07327.fasta > 83.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07327.fasta ./sampledata/target/1M.fa > 83.3.out
+query is ./sampledata/query/P07327.fasta and target is ./sampledata/target/ref.fa and val is 84
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P07327.fasta > 84.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P07327.fasta > 84.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07327.fasta ./sampledata/target/ref.fa > 84.3.out
+query is ./sampledata/query/P07756.fasta and target is ./sampledata/target/100k.fa and val is 85
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P07756.fasta > 85.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P07756.fasta > 85.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07756.fasta ./sampledata/target/100k.fa > 85.3.out
+query is ./sampledata/query/P07756.fasta and target is ./sampledata/target/10k.fa and val is 86
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P07756.fasta > 86.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P07756.fasta > 86.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07756.fasta ./sampledata/target/10k.fa > 86.3.out
+query is ./sampledata/query/P07756.fasta and target is ./sampledata/target/10M.fa and val is 87
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P07756.fasta > 87.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P07756.fasta > 87.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07756.fasta ./sampledata/target/10M.fa > 87.3.out
+query is ./sampledata/query/P07756.fasta and target is ./sampledata/target/1k.fa and val is 88
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P07756.fasta > 88.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P07756.fasta > 88.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07756.fasta ./sampledata/target/1k.fa > 88.3.out
+query is ./sampledata/query/P07756.fasta and target is ./sampledata/target/1M.fa and val is 89
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P07756.fasta > 89.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P07756.fasta > 89.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07756.fasta ./sampledata/target/1M.fa > 89.3.out
+query is ./sampledata/query/P07756.fasta and target is ./sampledata/target/ref.fa and val is 90
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P07756.fasta > 90.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P07756.fasta > 90.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P07756.fasta ./sampledata/target/ref.fa > 90.3.out
+query is ./sampledata/query/P08519.fasta and target is ./sampledata/target/100k.fa and val is 91
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P08519.fasta > 91.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P08519.fasta > 91.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P08519.fasta ./sampledata/target/100k.fa > 91.3.out
+query is ./sampledata/query/P08519.fasta and target is ./sampledata/target/10k.fa and val is 92
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P08519.fasta > 92.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P08519.fasta > 92.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P08519.fasta ./sampledata/target/10k.fa > 92.3.out
+query is ./sampledata/query/P08519.fasta and target is ./sampledata/target/10M.fa and val is 93
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P08519.fasta > 93.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P08519.fasta > 93.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P08519.fasta ./sampledata/target/10M.fa > 93.3.out
+query is ./sampledata/query/P08519.fasta and target is ./sampledata/target/1k.fa and val is 94
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P08519.fasta > 94.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P08519.fasta > 94.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P08519.fasta ./sampledata/target/1k.fa > 94.3.out
+query is ./sampledata/query/P08519.fasta and target is ./sampledata/target/1M.fa and val is 95
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P08519.fasta > 95.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P08519.fasta > 95.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P08519.fasta ./sampledata/target/1M.fa > 95.3.out
+query is ./sampledata/query/P08519.fasta and target is ./sampledata/target/ref.fa and val is 96
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P08519.fasta > 96.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P08519.fasta > 96.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P08519.fasta ./sampledata/target/ref.fa > 96.3.out
+query is ./sampledata/query/P0C6B8.fasta and target is ./sampledata/target/100k.fa and val is 97
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P0C6B8.fasta > 97.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P0C6B8.fasta > 97.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P0C6B8.fasta ./sampledata/target/100k.fa > 97.3.out
+query is ./sampledata/query/P0C6B8.fasta and target is ./sampledata/target/10k.fa and val is 98
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P0C6B8.fasta > 98.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P0C6B8.fasta > 98.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P0C6B8.fasta ./sampledata/target/10k.fa > 98.3.out
+query is ./sampledata/query/P0C6B8.fasta and target is ./sampledata/target/10M.fa and val is 99
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P0C6B8.fasta > 99.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P0C6B8.fasta > 99.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P0C6B8.fasta ./sampledata/target/10M.fa > 99.3.out
+query is ./sampledata/query/P0C6B8.fasta and target is ./sampledata/target/1k.fa and val is 100
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P0C6B8.fasta > 100.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P0C6B8.fasta > 100.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P0C6B8.fasta ./sampledata/target/1k.fa > 100.3.out
+query is ./sampledata/query/P0C6B8.fasta and target is ./sampledata/target/1M.fa and val is 101
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P0C6B8.fasta > 101.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P0C6B8.fasta > 101.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P0C6B8.fasta ./sampledata/target/1M.fa > 101.3.out
+query is ./sampledata/query/P0C6B8.fasta and target is ./sampledata/target/ref.fa and val is 102
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P0C6B8.fasta > 102.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P0C6B8.fasta > 102.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P0C6B8.fasta ./sampledata/target/ref.fa > 102.3.out
+query is ./sampledata/query/P10635.fasta and target is ./sampledata/target/100k.fa and val is 103
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P10635.fasta > 103.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P10635.fasta > 103.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P10635.fasta ./sampledata/target/100k.fa > 103.3.out
+query is ./sampledata/query/P10635.fasta and target is ./sampledata/target/10k.fa and val is 104
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P10635.fasta > 104.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P10635.fasta > 104.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P10635.fasta ./sampledata/target/10k.fa > 104.3.out
+query is ./sampledata/query/P10635.fasta and target is ./sampledata/target/10M.fa and val is 105
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P10635.fasta > 105.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P10635.fasta > 105.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P10635.fasta ./sampledata/target/10M.fa > 105.3.out
+query is ./sampledata/query/P10635.fasta and target is ./sampledata/target/1k.fa and val is 106
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P10635.fasta > 106.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P10635.fasta > 106.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P10635.fasta ./sampledata/target/1k.fa > 106.3.out
+query is ./sampledata/query/P10635.fasta and target is ./sampledata/target/1M.fa and val is 107
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P10635.fasta > 107.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P10635.fasta > 107.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P10635.fasta ./sampledata/target/1M.fa > 107.3.out
+query is ./sampledata/query/P10635.fasta and target is ./sampledata/target/ref.fa and val is 108
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P10635.fasta > 108.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P10635.fasta > 108.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P10635.fasta ./sampledata/target/ref.fa > 108.3.out
+query is ./sampledata/query/P14942.fasta and target is ./sampledata/target/100k.fa and val is 109
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P14942.fasta > 109.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P14942.fasta > 109.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P14942.fasta ./sampledata/target/100k.fa > 109.3.out
+query is ./sampledata/query/P14942.fasta and target is ./sampledata/target/10k.fa and val is 110
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P14942.fasta > 110.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P14942.fasta > 110.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P14942.fasta ./sampledata/target/10k.fa > 110.3.out
+query is ./sampledata/query/P14942.fasta and target is ./sampledata/target/10M.fa and val is 111
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P14942.fasta > 111.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P14942.fasta > 111.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P14942.fasta ./sampledata/target/10M.fa > 111.3.out
+query is ./sampledata/query/P14942.fasta and target is ./sampledata/target/1k.fa and val is 112
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P14942.fasta > 112.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P14942.fasta > 112.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P14942.fasta ./sampledata/target/1k.fa > 112.3.out
+query is ./sampledata/query/P14942.fasta and target is ./sampledata/target/1M.fa and val is 113
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P14942.fasta > 113.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P14942.fasta > 113.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P14942.fasta ./sampledata/target/1M.fa > 113.3.out
+query is ./sampledata/query/P14942.fasta and target is ./sampledata/target/ref.fa and val is 114
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P14942.fasta > 114.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P14942.fasta > 114.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P14942.fasta ./sampledata/target/ref.fa > 114.3.out
+query is ./sampledata/query/P18080.fasta and target is ./sampledata/target/100k.fa and val is 115
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P18080.fasta > 115.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P18080.fasta > 115.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P18080.fasta ./sampledata/target/100k.fa > 115.3.out
+query is ./sampledata/query/P18080.fasta and target is ./sampledata/target/10k.fa and val is 116
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P18080.fasta > 116.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P18080.fasta > 116.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P18080.fasta ./sampledata/target/10k.fa > 116.3.out
+query is ./sampledata/query/P18080.fasta and target is ./sampledata/target/10M.fa and val is 117
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P18080.fasta > 117.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P18080.fasta > 117.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P18080.fasta ./sampledata/target/10M.fa > 117.3.out
+query is ./sampledata/query/P18080.fasta and target is ./sampledata/target/1k.fa and val is 118
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P18080.fasta > 118.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P18080.fasta > 118.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P18080.fasta ./sampledata/target/1k.fa > 118.3.out
+query is ./sampledata/query/P18080.fasta and target is ./sampledata/target/1M.fa and val is 119
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P18080.fasta > 119.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P18080.fasta > 119.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P18080.fasta ./sampledata/target/1M.fa > 119.3.out
+query is ./sampledata/query/P18080.fasta and target is ./sampledata/target/ref.fa and val is 120
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P18080.fasta > 120.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P18080.fasta > 120.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P18080.fasta ./sampledata/target/ref.fa > 120.3.out
+query is ./sampledata/query/P19096.fasta and target is ./sampledata/target/100k.fa and val is 121
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P19096.fasta > 121.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P19096.fasta > 121.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19096.fasta ./sampledata/target/100k.fa > 121.3.out
+query is ./sampledata/query/P19096.fasta and target is ./sampledata/target/10k.fa and val is 122
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P19096.fasta > 122.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P19096.fasta > 122.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19096.fasta ./sampledata/target/10k.fa > 122.3.out
+query is ./sampledata/query/P19096.fasta and target is ./sampledata/target/10M.fa and val is 123
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P19096.fasta > 123.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P19096.fasta > 123.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19096.fasta ./sampledata/target/10M.fa > 123.3.out
+query is ./sampledata/query/P19096.fasta and target is ./sampledata/target/1k.fa and val is 124
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P19096.fasta > 124.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P19096.fasta > 124.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19096.fasta ./sampledata/target/1k.fa > 124.3.out
+query is ./sampledata/query/P19096.fasta and target is ./sampledata/target/1M.fa and val is 125
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P19096.fasta > 125.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P19096.fasta > 125.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19096.fasta ./sampledata/target/1M.fa > 125.3.out
+query is ./sampledata/query/P19096.fasta and target is ./sampledata/target/ref.fa and val is 126
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P19096.fasta > 126.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P19096.fasta > 126.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19096.fasta ./sampledata/target/ref.fa > 126.3.out
+query is ./sampledata/query/P19930.fasta and target is ./sampledata/target/100k.fa and val is 127
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P19930.fasta > 127.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P19930.fasta > 127.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19930.fasta ./sampledata/target/100k.fa > 127.3.out
+query is ./sampledata/query/P19930.fasta and target is ./sampledata/target/10k.fa and val is 128
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P19930.fasta > 128.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P19930.fasta > 128.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19930.fasta ./sampledata/target/10k.fa > 128.3.out
+query is ./sampledata/query/P19930.fasta and target is ./sampledata/target/10M.fa and val is 129
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P19930.fasta > 129.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P19930.fasta > 129.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19930.fasta ./sampledata/target/10M.fa > 129.3.out
+query is ./sampledata/query/P19930.fasta and target is ./sampledata/target/1k.fa and val is 130
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P19930.fasta > 130.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P19930.fasta > 130.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19930.fasta ./sampledata/target/1k.fa > 130.3.out
+query is ./sampledata/query/P19930.fasta and target is ./sampledata/target/1M.fa and val is 131
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P19930.fasta > 131.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P19930.fasta > 131.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19930.fasta ./sampledata/target/1M.fa > 131.3.out
+query is ./sampledata/query/P19930.fasta and target is ./sampledata/target/ref.fa and val is 132
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P19930.fasta > 132.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P19930.fasta > 132.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P19930.fasta ./sampledata/target/ref.fa > 132.3.out
+query is ./sampledata/query/P20930.fasta and target is ./sampledata/target/100k.fa and val is 133
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P20930.fasta > 133.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P20930.fasta > 133.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P20930.fasta ./sampledata/target/100k.fa > 133.3.out
+query is ./sampledata/query/P20930.fasta and target is ./sampledata/target/10k.fa and val is 134
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P20930.fasta > 134.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P20930.fasta > 134.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P20930.fasta ./sampledata/target/10k.fa > 134.3.out
+query is ./sampledata/query/P20930.fasta and target is ./sampledata/target/10M.fa and val is 135
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P20930.fasta > 135.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P20930.fasta > 135.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P20930.fasta ./sampledata/target/10M.fa > 135.3.out
+query is ./sampledata/query/P20930.fasta and target is ./sampledata/target/1k.fa and val is 136
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P20930.fasta > 136.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P20930.fasta > 136.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P20930.fasta ./sampledata/target/1k.fa > 136.3.out
+query is ./sampledata/query/P20930.fasta and target is ./sampledata/target/1M.fa and val is 137
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P20930.fasta > 137.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P20930.fasta > 137.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P20930.fasta ./sampledata/target/1M.fa > 137.3.out
+query is ./sampledata/query/P20930.fasta and target is ./sampledata/target/ref.fa and val is 138
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P20930.fasta > 138.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P20930.fasta > 138.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P20930.fasta ./sampledata/target/ref.fa > 138.3.out
+query is ./sampledata/query/P21177.fasta and target is ./sampledata/target/100k.fa and val is 139
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P21177.fasta > 139.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P21177.fasta > 139.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P21177.fasta ./sampledata/target/100k.fa > 139.3.out
+query is ./sampledata/query/P21177.fasta and target is ./sampledata/target/10k.fa and val is 140
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P21177.fasta > 140.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P21177.fasta > 140.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P21177.fasta ./sampledata/target/10k.fa > 140.3.out
+query is ./sampledata/query/P21177.fasta and target is ./sampledata/target/10M.fa and val is 141
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P21177.fasta > 141.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P21177.fasta > 141.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P21177.fasta ./sampledata/target/10M.fa > 141.3.out
+query is ./sampledata/query/P21177.fasta and target is ./sampledata/target/1k.fa and val is 142
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P21177.fasta > 142.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P21177.fasta > 142.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P21177.fasta ./sampledata/target/1k.fa > 142.3.out
+query is ./sampledata/query/P21177.fasta and target is ./sampledata/target/1M.fa and val is 143
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P21177.fasta > 143.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P21177.fasta > 143.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P21177.fasta ./sampledata/target/1M.fa > 143.3.out
+query is ./sampledata/query/P21177.fasta and target is ./sampledata/target/ref.fa and val is 144
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P21177.fasta > 144.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P21177.fasta > 144.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P21177.fasta ./sampledata/target/ref.fa > 144.3.out
+query is ./sampledata/query/P25705.fasta and target is ./sampledata/target/100k.fa and val is 145
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P25705.fasta > 145.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P25705.fasta > 145.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P25705.fasta ./sampledata/target/100k.fa > 145.3.out
+query is ./sampledata/query/P25705.fasta and target is ./sampledata/target/10k.fa and val is 146
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P25705.fasta > 146.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P25705.fasta > 146.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P25705.fasta ./sampledata/target/10k.fa > 146.3.out
+query is ./sampledata/query/P25705.fasta and target is ./sampledata/target/10M.fa and val is 147
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P25705.fasta > 147.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P25705.fasta > 147.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P25705.fasta ./sampledata/target/10M.fa > 147.3.out
+query is ./sampledata/query/P25705.fasta and target is ./sampledata/target/1k.fa and val is 148
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P25705.fasta > 148.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P25705.fasta > 148.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P25705.fasta ./sampledata/target/1k.fa > 148.3.out
+query is ./sampledata/query/P25705.fasta and target is ./sampledata/target/1M.fa and val is 149
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P25705.fasta > 149.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P25705.fasta > 149.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P25705.fasta ./sampledata/target/1M.fa > 149.3.out
+query is ./sampledata/query/P25705.fasta and target is ./sampledata/target/ref.fa and val is 150
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P25705.fasta > 150.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P25705.fasta > 150.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P25705.fasta ./sampledata/target/ref.fa > 150.3.out
+query is ./sampledata/query/P27895.fasta and target is ./sampledata/target/100k.fa and val is 151
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P27895.fasta > 151.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P27895.fasta > 151.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P27895.fasta ./sampledata/target/100k.fa > 151.3.out
+query is ./sampledata/query/P27895.fasta and target is ./sampledata/target/10k.fa and val is 152
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P27895.fasta > 152.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P27895.fasta > 152.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P27895.fasta ./sampledata/target/10k.fa > 152.3.out
+query is ./sampledata/query/P27895.fasta and target is ./sampledata/target/10M.fa and val is 153
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P27895.fasta > 153.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P27895.fasta > 153.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P27895.fasta ./sampledata/target/10M.fa > 153.3.out
+query is ./sampledata/query/P27895.fasta and target is ./sampledata/target/1k.fa and val is 154
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P27895.fasta > 154.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P27895.fasta > 154.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P27895.fasta ./sampledata/target/1k.fa > 154.3.out
+query is ./sampledata/query/P27895.fasta and target is ./sampledata/target/1M.fa and val is 155
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P27895.fasta > 155.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P27895.fasta > 155.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P27895.fasta ./sampledata/target/1M.fa > 155.3.out
+query is ./sampledata/query/P27895.fasta and target is ./sampledata/target/ref.fa and val is 156
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P27895.fasta > 156.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P27895.fasta > 156.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P27895.fasta ./sampledata/target/ref.fa > 156.3.out
+query is ./sampledata/query/P28167.fasta and target is ./sampledata/target/100k.fa and val is 157
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P28167.fasta > 157.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P28167.fasta > 157.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P28167.fasta ./sampledata/target/100k.fa > 157.3.out
+query is ./sampledata/query/P28167.fasta and target is ./sampledata/target/10k.fa and val is 158
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P28167.fasta > 158.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P28167.fasta > 158.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P28167.fasta ./sampledata/target/10k.fa > 158.3.out
+query is ./sampledata/query/P28167.fasta and target is ./sampledata/target/10M.fa and val is 159
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P28167.fasta > 159.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P28167.fasta > 159.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P28167.fasta ./sampledata/target/10M.fa > 159.3.out
+query is ./sampledata/query/P28167.fasta and target is ./sampledata/target/1k.fa and val is 160
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P28167.fasta > 160.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P28167.fasta > 160.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P28167.fasta ./sampledata/target/1k.fa > 160.3.out
+query is ./sampledata/query/P28167.fasta and target is ./sampledata/target/1M.fa and val is 161
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P28167.fasta > 161.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P28167.fasta > 161.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P28167.fasta ./sampledata/target/1M.fa > 161.3.out
+query is ./sampledata/query/P28167.fasta and target is ./sampledata/target/ref.fa and val is 162
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P28167.fasta > 162.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P28167.fasta > 162.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P28167.fasta ./sampledata/target/ref.fa > 162.3.out
+query is ./sampledata/query/P33450.fasta and target is ./sampledata/target/100k.fa and val is 163
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P33450.fasta > 163.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P33450.fasta > 163.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P33450.fasta ./sampledata/target/100k.fa > 163.3.out
+query is ./sampledata/query/P33450.fasta and target is ./sampledata/target/10k.fa and val is 164
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P33450.fasta > 164.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P33450.fasta > 164.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P33450.fasta ./sampledata/target/10k.fa > 164.3.out
+query is ./sampledata/query/P33450.fasta and target is ./sampledata/target/10M.fa and val is 165
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P33450.fasta > 165.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P33450.fasta > 165.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P33450.fasta ./sampledata/target/10M.fa > 165.3.out
+query is ./sampledata/query/P33450.fasta and target is ./sampledata/target/1k.fa and val is 166
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P33450.fasta > 166.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P33450.fasta > 166.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P33450.fasta ./sampledata/target/1k.fa > 166.3.out
+query is ./sampledata/query/P33450.fasta and target is ./sampledata/target/1M.fa and val is 167
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P33450.fasta > 167.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P33450.fasta > 167.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P33450.fasta ./sampledata/target/1M.fa > 167.3.out
+query is ./sampledata/query/P33450.fasta and target is ./sampledata/target/ref.fa and val is 168
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P33450.fasta > 168.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P33450.fasta > 168.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P33450.fasta ./sampledata/target/ref.fa > 168.3.out
+query is ./sampledata/query/P42357.fasta and target is ./sampledata/target/100k.fa and val is 169
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P42357.fasta > 169.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P42357.fasta > 169.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P42357.fasta ./sampledata/target/100k.fa > 169.3.out
+query is ./sampledata/query/P42357.fasta and target is ./sampledata/target/10k.fa and val is 170
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P42357.fasta > 170.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P42357.fasta > 170.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P42357.fasta ./sampledata/target/10k.fa > 170.3.out
+query is ./sampledata/query/P42357.fasta and target is ./sampledata/target/10M.fa and val is 171
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P42357.fasta > 171.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P42357.fasta > 171.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P42357.fasta ./sampledata/target/10M.fa > 171.3.out
+query is ./sampledata/query/P42357.fasta and target is ./sampledata/target/1k.fa and val is 172
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P42357.fasta > 172.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P42357.fasta > 172.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P42357.fasta ./sampledata/target/1k.fa > 172.3.out
+query is ./sampledata/query/P42357.fasta and target is ./sampledata/target/1M.fa and val is 173
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P42357.fasta > 173.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P42357.fasta > 173.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P42357.fasta ./sampledata/target/1M.fa > 173.3.out
+query is ./sampledata/query/P42357.fasta and target is ./sampledata/target/ref.fa and val is 174
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P42357.fasta > 174.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P42357.fasta > 174.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P42357.fasta ./sampledata/target/ref.fa > 174.3.out
+query is ./sampledata/query/P53765.fasta and target is ./sampledata/target/100k.fa and val is 175
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P53765.fasta > 175.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P53765.fasta > 175.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P53765.fasta ./sampledata/target/100k.fa > 175.3.out
+query is ./sampledata/query/P53765.fasta and target is ./sampledata/target/10k.fa and val is 176
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P53765.fasta > 176.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P53765.fasta > 176.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P53765.fasta ./sampledata/target/10k.fa > 176.3.out
+query is ./sampledata/query/P53765.fasta and target is ./sampledata/target/10M.fa and val is 177
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P53765.fasta > 177.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P53765.fasta > 177.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P53765.fasta ./sampledata/target/10M.fa > 177.3.out
+query is ./sampledata/query/P53765.fasta and target is ./sampledata/target/1k.fa and val is 178
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P53765.fasta > 178.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P53765.fasta > 178.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P53765.fasta ./sampledata/target/1k.fa > 178.3.out
+query is ./sampledata/query/P53765.fasta and target is ./sampledata/target/1M.fa and val is 179
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P53765.fasta > 179.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P53765.fasta > 179.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P53765.fasta ./sampledata/target/1M.fa > 179.3.out
+query is ./sampledata/query/P53765.fasta and target is ./sampledata/target/ref.fa and val is 180
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P53765.fasta > 180.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P53765.fasta > 180.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P53765.fasta ./sampledata/target/ref.fa > 180.3.out
+query is ./sampledata/query/P56980.fasta and target is ./sampledata/target/100k.fa and val is 181
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P56980.fasta > 181.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P56980.fasta > 181.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P56980.fasta ./sampledata/target/100k.fa > 181.3.out
+query is ./sampledata/query/P56980.fasta and target is ./sampledata/target/10k.fa and val is 182
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P56980.fasta > 182.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P56980.fasta > 182.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P56980.fasta ./sampledata/target/10k.fa > 182.3.out
+query is ./sampledata/query/P56980.fasta and target is ./sampledata/target/10M.fa and val is 183
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P56980.fasta > 183.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P56980.fasta > 183.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P56980.fasta ./sampledata/target/10M.fa > 183.3.out
+query is ./sampledata/query/P56980.fasta and target is ./sampledata/target/1k.fa and val is 184
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P56980.fasta > 184.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P56980.fasta > 184.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P56980.fasta ./sampledata/target/1k.fa > 184.3.out
+query is ./sampledata/query/P56980.fasta and target is ./sampledata/target/1M.fa and val is 185
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P56980.fasta > 185.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P56980.fasta > 185.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P56980.fasta ./sampledata/target/1M.fa > 185.3.out
+query is ./sampledata/query/P56980.fasta and target is ./sampledata/target/ref.fa and val is 186
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P56980.fasta > 186.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P56980.fasta > 186.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P56980.fasta ./sampledata/target/ref.fa > 186.3.out
+query is ./sampledata/query/P58229.fasta and target is ./sampledata/target/100k.fa and val is 187
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/P58229.fasta > 187.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/P58229.fasta > 187.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P58229.fasta ./sampledata/target/100k.fa > 187.3.out
+query is ./sampledata/query/P58229.fasta and target is ./sampledata/target/10k.fa and val is 188
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/P58229.fasta > 188.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/P58229.fasta > 188.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P58229.fasta ./sampledata/target/10k.fa > 188.3.out
+query is ./sampledata/query/P58229.fasta and target is ./sampledata/target/10M.fa and val is 189
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/P58229.fasta > 189.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/P58229.fasta > 189.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P58229.fasta ./sampledata/target/10M.fa > 189.3.out
+query is ./sampledata/query/P58229.fasta and target is ./sampledata/target/1k.fa and val is 190
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/P58229.fasta > 190.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/P58229.fasta > 190.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P58229.fasta ./sampledata/target/1k.fa > 190.3.out
+query is ./sampledata/query/P58229.fasta and target is ./sampledata/target/1M.fa and val is 191
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/P58229.fasta > 191.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/P58229.fasta > 191.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P58229.fasta ./sampledata/target/1M.fa > 191.3.out
+query is ./sampledata/query/P58229.fasta and target is ./sampledata/target/ref.fa and val is 192
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/P58229.fasta > 192.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/P58229.fasta > 192.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/P58229.fasta ./sampledata/target/ref.fa > 192.3.out
+query is ./sampledata/query/Q3ZAI3.fasta and target is ./sampledata/target/100k.fa and val is 193
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/Q3ZAI3.fasta > 193.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/Q3ZAI3.fasta > 193.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q3ZAI3.fasta ./sampledata/target/100k.fa > 193.3.out
+query is ./sampledata/query/Q3ZAI3.fasta and target is ./sampledata/target/10k.fa and val is 194
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/Q3ZAI3.fasta > 194.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/Q3ZAI3.fasta > 194.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q3ZAI3.fasta ./sampledata/target/10k.fa > 194.3.out
+query is ./sampledata/query/Q3ZAI3.fasta and target is ./sampledata/target/10M.fa and val is 195
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/Q3ZAI3.fasta > 195.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/Q3ZAI3.fasta > 195.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q3ZAI3.fasta ./sampledata/target/10M.fa > 195.3.out
+query is ./sampledata/query/Q3ZAI3.fasta and target is ./sampledata/target/1k.fa and val is 196
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/Q3ZAI3.fasta > 196.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/Q3ZAI3.fasta > 196.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q3ZAI3.fasta ./sampledata/target/1k.fa > 196.3.out
+query is ./sampledata/query/Q3ZAI3.fasta and target is ./sampledata/target/1M.fa and val is 197
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/Q3ZAI3.fasta > 197.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/Q3ZAI3.fasta > 197.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q3ZAI3.fasta ./sampledata/target/1M.fa > 197.3.out
+query is ./sampledata/query/Q3ZAI3.fasta and target is ./sampledata/target/ref.fa and val is 198
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/Q3ZAI3.fasta > 198.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/Q3ZAI3.fasta > 198.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q3ZAI3.fasta ./sampledata/target/ref.fa > 198.3.out
+query is ./sampledata/query/Q7TMA5.fasta and target is ./sampledata/target/100k.fa and val is 199
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/Q7TMA5.fasta > 199.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/Q7TMA5.fasta > 199.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q7TMA5.fasta ./sampledata/target/100k.fa > 199.3.out
+query is ./sampledata/query/Q7TMA5.fasta and target is ./sampledata/target/10k.fa and val is 200
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/Q7TMA5.fasta > 200.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/Q7TMA5.fasta > 200.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q7TMA5.fasta ./sampledata/target/10k.fa > 200.3.out
+query is ./sampledata/query/Q7TMA5.fasta and target is ./sampledata/target/10M.fa and val is 201
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/Q7TMA5.fasta > 201.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/Q7TMA5.fasta > 201.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q7TMA5.fasta ./sampledata/target/10M.fa > 201.3.out
+query is ./sampledata/query/Q7TMA5.fasta and target is ./sampledata/target/1k.fa and val is 202
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/Q7TMA5.fasta > 202.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/Q7TMA5.fasta > 202.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q7TMA5.fasta ./sampledata/target/1k.fa > 202.3.out
+query is ./sampledata/query/Q7TMA5.fasta and target is ./sampledata/target/1M.fa and val is 203
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/Q7TMA5.fasta > 203.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/Q7TMA5.fasta > 203.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q7TMA5.fasta ./sampledata/target/1M.fa > 203.3.out
+query is ./sampledata/query/Q7TMA5.fasta and target is ./sampledata/target/ref.fa and val is 204
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/Q7TMA5.fasta > 204.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/Q7TMA5.fasta > 204.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q7TMA5.fasta ./sampledata/target/ref.fa > 204.3.out
+query is ./sampledata/query/Q8ZGB4.fasta and target is ./sampledata/target/100k.fa and val is 205
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/Q8ZGB4.fasta > 205.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/Q8ZGB4.fasta > 205.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q8ZGB4.fasta ./sampledata/target/100k.fa > 205.3.out
+query is ./sampledata/query/Q8ZGB4.fasta and target is ./sampledata/target/10k.fa and val is 206
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/Q8ZGB4.fasta > 206.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/Q8ZGB4.fasta > 206.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q8ZGB4.fasta ./sampledata/target/10k.fa > 206.3.out
+query is ./sampledata/query/Q8ZGB4.fasta and target is ./sampledata/target/10M.fa and val is 207
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/Q8ZGB4.fasta > 207.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/Q8ZGB4.fasta > 207.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q8ZGB4.fasta ./sampledata/target/10M.fa > 207.3.out
+query is ./sampledata/query/Q8ZGB4.fasta and target is ./sampledata/target/1k.fa and val is 208
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/Q8ZGB4.fasta > 208.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/Q8ZGB4.fasta > 208.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q8ZGB4.fasta ./sampledata/target/1k.fa > 208.3.out
+query is ./sampledata/query/Q8ZGB4.fasta and target is ./sampledata/target/1M.fa and val is 209
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/Q8ZGB4.fasta > 209.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/Q8ZGB4.fasta > 209.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q8ZGB4.fasta ./sampledata/target/1M.fa > 209.3.out
+query is ./sampledata/query/Q8ZGB4.fasta and target is ./sampledata/target/ref.fa and val is 210
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/Q8ZGB4.fasta > 210.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/Q8ZGB4.fasta > 210.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q8ZGB4.fasta ./sampledata/target/ref.fa > 210.3.out
+query is ./sampledata/query/Q9UKN1.fasta and target is ./sampledata/target/100k.fa and val is 211
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/100k.fa -q ./sampledata/query/Q9UKN1.fasta > 211.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/100k.fa ./sampledata/query/Q9UKN1.fasta > 211.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q9UKN1.fasta ./sampledata/target/100k.fa > 211.3.out
+query is ./sampledata/query/Q9UKN1.fasta and target is ./sampledata/target/10k.fa and val is 212
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10k.fa -q ./sampledata/query/Q9UKN1.fasta > 212.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10k.fa ./sampledata/query/Q9UKN1.fasta > 212.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q9UKN1.fasta ./sampledata/target/10k.fa > 212.3.out
+query is ./sampledata/query/Q9UKN1.fasta and target is ./sampledata/target/10M.fa and val is 213
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/10M.fa -q ./sampledata/query/Q9UKN1.fasta > 213.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/10M.fa ./sampledata/query/Q9UKN1.fasta > 213.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q9UKN1.fasta ./sampledata/target/10M.fa > 213.3.out
+query is ./sampledata/query/Q9UKN1.fasta and target is ./sampledata/target/1k.fa and val is 214
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1k.fa -q ./sampledata/query/Q9UKN1.fasta > 214.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1k.fa ./sampledata/query/Q9UKN1.fasta > 214.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q9UKN1.fasta ./sampledata/target/1k.fa > 214.3.out
+query is ./sampledata/query/Q9UKN1.fasta and target is ./sampledata/target/1M.fa and val is 215
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/1M.fa -q ./sampledata/query/Q9UKN1.fasta > 215.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/1M.fa ./sampledata/query/Q9UKN1.fasta > 215.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q9UKN1.fasta ./sampledata/target/1M.fa > 215.3.out
+query is ./sampledata/query/Q9UKN1.fasta and target is ./sampledata/target/ref.fa and val is 216
+parasail command is:
+parasail/apps/parasail_aligner -x -a parasail_sw_striped_profile_avx2_256_sat -t 4 -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 -f ./sampledata/target/ref.fa -q ./sampledata/query/Q9UKN1.fasta > 216.1.out
+ssw command is:
+Complete-Striped-Smith-Waterman-Library-master/src/ssw_test -o 8 -e 5 -m ./parasail/util/matrices/BLOSUM62 ./sampledata/target/ref.fa ./sampledata/query/Q9UKN1.fasta > 216.2.out
+opal command is:
+opal-master/src/opal_aligner ./sampledata/query/Q9UKN1.fasta ./sampledata/target/ref.fa > 216.3.out
