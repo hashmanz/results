@@ -1,0 +1,20 @@
+Using SW alignment mode.
+Reading query fasta file...
+Read query sequence, 513 residues.
+
+Reading database fasta file...
+Read 5 database sequences, 11111005 residues total.
+Whole database read: 5 database sequences, 11111005 residues in total.
+
+Comparing query to database...
+Finished!
+
+#<i>: <score> (<query start>, <target start>) (<query end>, <target end>)
+#0: 261 (?, ?) (?, ?)
+#1: 364 (?, ?) (?, ?)
+#2: 361 (?, ?) (?, ?)
+#3: 340 (?, ?) (?, ?)
+#4: 313 (?, ?) (?, ?)
+
+Cpu time of searching: 13.67
+GCUPS (giga cell updates per second): 0.42

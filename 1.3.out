@@ -3,14 +3,14 @@ Reading query fasta file...
 Read query sequence, 299 residues.
 
 Reading database fasta file...
-Read 1 database sequences, 1001 residues total.
-Whole database read: 1 database sequences, 1001 residues in total.
+Read 1 database sequences, 100001 residues total.
+Whole database read: 1 database sequences, 100001 residues in total.
 
 Comparing query to database...
 Finished!
 
 #<i>: <score> (<query start>, <target start>) (<query end>, <target end>)
-#0: 66 (?, ?) (?, ?)
+#0: 77 (?, ?) (?, ?)
 
-Cpu time of searching: 0.00
-GCUPS (giga cell updates per second): inf
+Cpu time of searching: 0.14
+GCUPS (giga cell updates per second): 0.21

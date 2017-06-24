@@ -1,0 +1,20 @@
+target_name: chr1
+query_name: sp|P01008|ANT3_HUMAN
+optimal_alignment_score: 0	strand: +	target_end: 0	query_end: 1
+
+target_name: chr2
+query_name: sp|P01008|ANT3_HUMAN
+optimal_alignment_score: 0	strand: +	target_end: 0	query_end: 1
+
+target_name: chr3
+query_name: sp|P01008|ANT3_HUMAN
+optimal_alignment_score: 0	strand: +	target_end: 0	query_end: 1
+
+target_name: chr4
+query_name: sp|P01008|ANT3_HUMAN
+optimal_alignment_score: 0	strand: +	target_end: 0	query_end: 1
+
+target_name: chr5
+query_name: sp|P01008|ANT3_HUMAN
+optimal_alignment_score: 0	strand: +	target_end: 0	query_end: 1
+

@@ -1,0 +1,28 @@
+            funcname: parasail_sw_striped_profile_avx2_256_sat
+              cutoff: 7
+          use filter: no
+          gap_extend: 5
+            gap_open: 8
+              matrix: ./parasail/util/matrices/BLOSUM62
+                 AOL: 80
+                 SIM: 40
+                  OS: 30
+                file: ./sampledata/target/10M.fa
+               query: ./sampledata/query/O60341.fasta
+              output: parasail.csv
+  read and pack time: 0.0654 seconds
+            sentinal: $
+end of packed buffer: 10000855
+ number of sequences: 2
+   number of queries: 1
+   number of db seqs: 1
+      enumerate time: 0.0000 seconds
+        unique pairs: 1
+     omp num threads: 4
+    openmp prep time: 0.0000 seconds
+        profile init: 0.0000 seconds
+    profile creation: 0.0037 seconds
+                work: 8520000852 cells
+      alignment time: 0.5691 seconds
+               gcups: 14.9722 
+     profile cleanup: 0.0000 seconds
